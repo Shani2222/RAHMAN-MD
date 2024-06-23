@@ -2,7 +2,7 @@ const bot = require(__dirname + '/lib/rahman')
 const { VERSION } = require(__dirname + '/config')
 
 const start = async () => {
-    Debug.info(`Starting RAHMAN ${VERSION}`)
+    Debug.info(`Starting Rahman ${VERSION}`)
   try {
     await bot.init()
     //bot.logger.info('⏳ Database syncing!')
