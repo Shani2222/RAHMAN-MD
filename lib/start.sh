@@ -1,5 +1,5 @@
 while true
 do
-echo "Starting BYTE-MD!"
+echo "Starting RAHMAN-MD!"
 node .
 done
